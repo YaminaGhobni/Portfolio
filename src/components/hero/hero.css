@@ -1,0 +1,86 @@
+
+section.hero{
+    margin-top: 3rem;
+}
+section.hero .parent-avatar.flex{
+    align-items: end;
+}
+
+section.hero .left-section{
+    flex-grow: 1;
+}
+
+section.hero .icon-linkedin-square{
+    color: var(--blue);
+    font-size: 1.1rem;
+   gap: 1.3em;
+}
+
+section.hero .avatar{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid darkgoldenrod;
+    padding: 1px;
+    box-shadow: 2px 2px 40px rgb(232, 232, 232) inset;
+    margin-right: 0.6rem;
+
+}
+
+section.hero h1.title{
+    font-size: 2.84rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+
+}
+
+section.hero p.sub-title{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 32px;
+    color: var(--subtitle);
+    text-align: justify;
+}
+
+section.hero .all-icons{
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+    transition: 0.3s;
+}
+
+section.hero .all-icons .icon:hover{
+    font-size: 1.4rem;
+    transition: 3s;
+    cursor: pointer;
+    color: var(--icon-hover);
+}
+
+/* Right Section  */
+
+section.hero .right-section {
+    display: block;
+   
+
+}
+section.hero .right-section img{
+    width: 500px;
+
+}
+
+@media (max-width: 1250px) {
+
+    section.hero .right-section {
+        display: none;
+    
+    }
+
+}
+@media (max-width: 600px) {
+
+    section.hero .right-section {
+        display: none;
+    
+    }
+
+}

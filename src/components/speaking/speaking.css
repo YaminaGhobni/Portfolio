@@ -1,0 +1,36 @@
+div .speaking{
+    text-align: center;
+    margin: 80px;
+
+}
+div  .title{
+    text-align: center;
+    color: var(--title);
+}
+div .speaking h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--title);
+}
+
+div .speaking .span{
+    font-size: 1rem;
+   text-align: justify;
+    margin-top: 6rem;
+    margin-bottom: 0.2rem;
+    color: var(--subtitle);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.flex.speaking .animation{
+    display: block;
+}
+
+@media (max-width: 1250px) {
+
+    div.flex.speaking .animation{
+        display: none;
+    }
+    
+    
+}
